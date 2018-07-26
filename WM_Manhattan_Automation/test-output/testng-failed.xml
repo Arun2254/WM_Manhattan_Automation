@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="PO_Auto_Receiving.PO_Auto_Receiving.NewTest"/>
+      <class name="PO_Auto_Receiving.PO_Auto_Receiving.AppTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="PO_Auto_Receiving.PO_Auto_Receiving.AppTest">
+        <methods>
+          <include name="testApp"/>
+        </methods>
+      </class> <!-- PO_Auto_Receiving.PO_Auto_Receiving.AppTest -->
+      <class name="PO_Auto_Receiving.PO_Auto_Receiving.NewTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="testEasy"/>
+        </methods>
+      </class> <!-- PO_Auto_Receiving.PO_Auto_Receiving.NewTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

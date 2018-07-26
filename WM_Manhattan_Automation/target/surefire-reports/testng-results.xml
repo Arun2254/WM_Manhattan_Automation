@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7554" started-at="2018-07-26T18:20:26Z" finished-at="2018-07-26T18:20:34Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7554" started-at="2018-07-26T18:20:26Z" finished-at="2018-07-26T18:20:34Z">
+      <class name="PageObjects.NewTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:PageObjects.NewTest@35fb3008]" name="beforeTest" is-config="true" duration-ms="3197" started-at="2018-07-26T11:20:26Z" finished-at="2018-07-26T11:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testEasy()[pri:0, instance:PageObjects.NewTest@35fb3008]" name="testEasy" duration-ms="4146" started-at="2018-07-26T11:20:30Z" finished-at="2018-07-26T11:20:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEasy -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:PageObjects.NewTest@35fb3008]" name="afterTest" is-config="true" duration-ms="193" started-at="2018-07-26T11:20:34Z" finished-at="2018-07-26T11:20:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- PageObjects.NewTest -->
+      <class name="TestRunner.AppTest">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:TestRunner.AppTest@7225790e]" name="testApp" duration-ms="2" started-at="2018-07-26T11:20:30Z" finished-at="2018-07-26T11:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+      </class> <!-- TestRunner.AppTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
