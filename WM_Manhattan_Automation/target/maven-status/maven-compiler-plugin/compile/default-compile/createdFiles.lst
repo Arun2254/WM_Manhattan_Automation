@@ -1,2 +1,6 @@
-PageObjects/App.class
+PageObjects/Base.class
 PageObjects/NewTest.class
+stepDefinition/BaseSteps.class
+PageObjects/App.class
+stepDefinition/Steps_AfterLogin.class
+PageObjects/Log.class
